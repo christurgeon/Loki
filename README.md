@@ -31,12 +31,14 @@ Current Features:
 1. Periodic polling of market data, sends data to slack channel
 2. Alpaca hook up with account information
 3. Extract news article links for a certain ticker
+4. Scrape each ARK fund holdings
 
 Goals:
-Devise a way for Python and CPP backend to work together.
-1. Provide statistics on certain trades/positions
-2. Pull lots of data and run advanced statistics 
-3. Parse sites for earnings data / SEC data
-4. Message interfacing with the bot over slack
+Deprecate some C++ and allow Python as main driver.
+1. Poll investments made by senators / gov't staff
+2. Undervalued / overvalued calculations 
+3. Check short interest (top float) warn if it gets over certain value for watchlist
+4. Earnings dates for companies
+5. Alpaca hookup for trading
 
 Look into financialmodelingprep.com
